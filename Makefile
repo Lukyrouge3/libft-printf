@@ -8,6 +8,12 @@ SRCS		:= char/ft_isalnum.c \
 				char/ft_isprint.c \
 				char/ft_tolower.c \
 				char/ft_toupper.c \
+				ft_printf/ft_nb_converters.c \
+				ft_printf/ft_printf.c \
+				ft_printf/ft_ptr_converters.c \
+				ft_printf/ft_str_converters.c \
+				ft_printf/ft_strutils.c \
+				ft_printf/ft_utils.c \
 				io/ft_putchar_fd.c \
 				io/ft_putendl_fd.c \
 				io/ft_putnbr_fd.c \
@@ -21,6 +27,7 @@ SRCS		:= char/ft_isalnum.c \
 				list/ft_lstmap_bonus.c \
 				list/ft_lstnew_bonus.c \
 				list/ft_lstsize_bonus.c \
+				math/ft_max.c \
 				mem/ft_bzero.c \
 				mem/ft_calloc.c \
 				mem/ft_memchr.c \
@@ -30,6 +37,9 @@ SRCS		:= char/ft_isalnum.c \
 				mem/ft_memset.c \
 				str/ft_atoi.c \
 				str/ft_itoa.c \
+				str/ft_itoa_base.c \
+				str/ft_itoau.c \
+				math/ft_min.c \
 				str/ft_split.c \
 				str/ft_strchr.c \
 				str/ft_strdup.c \

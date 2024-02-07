@@ -6,9 +6,11 @@
 /*   By: fltorren <fltorren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:41:32 by fltorren          #+#    #+#             */
-/*   Updated: 2023/10/11 11:13:26 by fltorren         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:00:55 by fltorren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 static int	ft_isspace(char c)
 {

@@ -6,7 +6,7 @@
 /*   By: fltorren <fltorren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 10:39:55 by fltorren          #+#    #+#             */
-/*   Updated: 2023/10/11 11:38:46 by fltorren         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:08:05 by fltorren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,13 @@ void		ft_putstr_fd(char *s, int fd);
 void		ft_putendl_fd(char *s, int fd);
 void		ft_putnbr_fd(int n, int fd);
 
+int			ft_atoi(const char *str);
 char		*ft_strndup(const char *str, size_t len);
+char		*ft_itoau(unsigned int n);
+char		*ft_itoa_base(unsigned long n, char *base);
+size_t		ft_get_digits(unsigned long n, int base);
+int			ft_min(int a, int b);
+int			ft_max(int a, int b);
 
 /* BONUS */
 typedef struct s_list
