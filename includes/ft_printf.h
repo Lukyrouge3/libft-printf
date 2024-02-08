@@ -6,7 +6,7 @@
 /*   By: fltorren <fltorren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 17:07:26 by fltorren          #+#    #+#             */
-/*   Updated: 2024/02/07 17:15:34 by fltorren         ###   ########.fr       */
+/*   Updated: 2024/02/07 17:20:06 by fltorren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,6 @@ typedef struct s_flags
 	int		alt;
 }				t_flags;
 
-int		ft_printf(const char *format, ...);
 int		ft_put_type(va_list args, const char *format, int i, t_flags flags);
 int		ft_get_flags(va_list args, const char *format, int i, t_flags *flags);
 
@@ -49,5 +48,6 @@ void	ft_put_zeroes(int width, int len);
 void	ft_reassign(char **str, char *new);
 char	*ft_join_spaces(char *str, int n);
 char	*ft_join_zeroes(char *str, int n);
-int	ft_get_precision(va_list args, const char *format, int i, t_flags *flags);
+int		ft_get_precision(va_list args, const char *format,
+			int i, t_flags *flags);
 #endif

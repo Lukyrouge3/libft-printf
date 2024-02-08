@@ -54,7 +54,8 @@ SRCS		:= char/ft_isalnum.c \
 				str/ft_strnstr.c \
 				str/ft_strrchr.c \
 				str/ft_strtrim.c \
-				str/ft_substr.c
+				str/ft_substr.c \
+				char/ft_isspace.c
 OBJS		:= ${SRCS:.c=.o}
 
 %.o	: %.c \

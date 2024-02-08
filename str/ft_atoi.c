@@ -6,17 +6,11 @@
 /*   By: fltorren <fltorren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:41:32 by fltorren          #+#    #+#             */
-/*   Updated: 2024/02/07 17:00:55 by fltorren         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:09:57 by fltorren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int	ft_isspace(char c)
-{
-	return (c == ' ' || c == '\f' || c == '\n' || c == '\r' || c == '\t'
-		|| c == '\v');
-}
 
 static int	ft_isnbr(char c)
 {

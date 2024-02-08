@@ -6,7 +6,7 @@
 /*   By: fltorren <fltorren@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 10:39:55 by fltorren          #+#    #+#             */
-/*   Updated: 2024/02/07 17:08:05 by fltorren         ###   ########.fr       */
+/*   Updated: 2024/02/07 18:08:50 by fltorren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,6 +62,8 @@ char		*ft_itoa_base(unsigned long n, char *base);
 size_t		ft_get_digits(unsigned long n, int base);
 int			ft_min(int a, int b);
 int			ft_max(int a, int b);
+int			ft_isspace(int c);
+int			ft_printf(const char *format, ...);
 
 /* BONUS */
 typedef struct s_list
